@@ -1,4 +1,4 @@
-package com.journaldev.singleton;
+package pt.andre.ribeiro.dev.singleton;
 
 public class EagerInitializedSingleton {
     
@@ -6,7 +6,7 @@ private static final EagerInitialization instance = new EagerInitialization();
 
 private EagerInitialization(){}
 
-public static EagerInitializedSingleton getInstance(){
+public static EagerInitialization getInstance(){
      return instance;
 } 
 
